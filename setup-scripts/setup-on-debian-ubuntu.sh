@@ -21,7 +21,7 @@ curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 
 sudo apt update
 sudo apt install -y apt-transport-https
-sudo apt install -y git nodejs openjdk-11-jdk tig htop parallel pkg-config zip g++ zlib1g-dev unzip python3 graphviz
+sudo apt install -y git nodejs openjdk-11-jdk tig htop parallel pkg-config zip build-essential zlib1g-dev unzip python3 graphviz
 
 sudo npm install -g yarn @bazel/bazelisk @bazel/buildifier @bazel/buildozer @bazel/ibazel
 
